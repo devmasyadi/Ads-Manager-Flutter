@@ -1,10 +1,11 @@
-package com.devmasyadi.ads_manager_example
+package com.adsmanager
 
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import com.devmasyadi.ads_manager_example.R
 import com.google.android.gms.ads.nativead.MediaView
 import com.google.android.gms.ads.nativead.NativeAd
 import com.google.android.gms.ads.nativead.NativeAdView
