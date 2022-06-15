@@ -112,17 +112,17 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             ElevatedButton(
               onPressed: () {
-                _adsManager.setConfigAds(_configAdsManager);
-              },
-              child: const Text("SetAdUnit"),
-            ),
-            ElevatedButton(
-              onPressed: () {
                 _adsManager.initSdk(
                   adsMangerInitListener: (isInitialized) {},
                 );
               },
               child: const Text("Init Sdk"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                _adsManager.setConfigAds(_configAdsManager);
+              },
+              child: const Text("SetAdUnit"),
             ),
             ElevatedButton(
               onPressed: () {
