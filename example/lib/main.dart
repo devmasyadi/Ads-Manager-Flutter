@@ -58,23 +58,25 @@ class _MyHomePageState extends State<MyHomePage> {
   final _adsManager = AdsManager();
 
   final _configAdsManager = ConfigAdsManager(
-      isShowAds: true,
-      isShowBanner: true,
-      isShowNative: true,
-      isShowInterstitial: true,
-      isShowReward: true,
-      typeAdsBanner: TypeAds.admob,
-      typeAdsNative: TypeAds.admob,
-      typeAdsInterstitial: TypeAds.admob,
-      typeAdsReward: TypeAds.admob,
-      admobBannerId: "ca-app-pub-3940256099942544/6300978111",
-      admobInterstitial: "ca-app-pub-3940256099942544/1033173712",
-      admobRewardsAdsId: "ca-app-pub-3940256099942544/5224354917",
-      admobNativeId: "ca-app-pub-4764558539538067/9810032480",
-      applovinBannerId: "a9cf30664af0cafd",
-      applovinInterstitial: "37bee3aa561caa00",
-      applovinNativeId: "117ad74db422cb93",
-      applovinRewardsAdsId: "50abdd7e9a3fcd0a");
+    isShowAds: true,
+    isShowBanner: true,
+    isShowNative: true,
+    isShowInterstitial: true,
+    isShowReward: true,
+    typeAdsBanner: TypeAds.admob,
+    typeAdsNative: TypeAds.admob,
+    typeAdsInterstitial: TypeAds.admob,
+    typeAdsReward: TypeAds.admob,
+    admobBannerId: "ca-app-pub-3940256099942544/6300978111",
+    admobInterstitial: "ca-app-pub-3940256099942544/1033173712",
+    admobRewardsAdsId: "ca-app-pub-3940256099942544/5224354917",
+    admobNativeId: "ca-app-pub-3940256099942544/2247696110",
+    applovinBannerId: "a9cf30664af0cafd",
+    applovinInterstitial: "37bee3aa561caa00",
+    applovinNativeId: "117ad74db422cb93",
+    applovinRewardsAdsId: "50abdd7e9a3fcd0a",
+    testDevices: [],
+  );
 
   @override
   Widget build(BuildContext context) {
